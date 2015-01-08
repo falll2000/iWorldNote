@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="wordListView"/>
+    <item type="id" name="testWordGridView"/>
+    
+    <item type="id" name="choiceItem1"/>
+	<item type="id" name="choiceItem2"/>
+	<item type="id" name="choiceItem3"/>
+	<item type="id" name="choiceItem4"/>
+	<item type="id" name="choiceItem5"/>
+	<item type="id" name="choiceItem6"/>
+	<item type="id" name="choiceItem7"/>
+	<item type="id" name="choiceItem8"/>
+	<item type="id" name="choiceItem9"/>
+	<item type="id" name="choiceItem10"/>
+    
+    
+	
+	<item type="id" name="news_button_cat1"/>
+	<item type="id" name="news_button_cat2"/>
+	<item type="id" name="news_button_cat3"/>
+	<item type="id" name="news_button_cat4"/>
+	<item type="id" name="news_button_cat5"/>
+	<item type="id" name="news_button_cat6"/>
+	<item type="id" name="news_button_cat7"/>
+	<item type="id" name="news_button_cat8"/>
+	<item type="id" name="news_button_cat9"/>
+	<item type="id" name="news_button_cat10"/>
+	
+	
+    
+
+
+</resources>

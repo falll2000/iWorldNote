@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iWorldNote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	
+	
+	<string name="main_title">iWorldNote</string>
+	<string name="main_btn_news_survay">News Survay</string>
+	<string name="main_btn_word_test">Word Test</string>
+	<string name="main_btn_my_wordnote">My WorldNote</string>
+	<string name="main_btn_trade_center">Trade Center</string>
+	
+	<string name="test_title">Word Revised List</string>
+	<string name="test_btn_test">Test</string>
+	
+	<string name="question_btn_prev">Back</string>
+	<string name="question_btn_next">Next</string>
+	
+	
+	<string name="news_survay_title">News Survay</string>
+	<string name="news_survay_item_like_title">讚：</string>
+	<string name="news_survay_item_view_title">觀看次數：</string>
+	<string name="news_survay_keyword_title">關鍵字：</string>
+	<string name="news_survay_recommand_title">推薦人：</string>
+</resources>
