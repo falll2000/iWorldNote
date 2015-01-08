@@ -19,7 +19,7 @@ public class WordListActivity extends BaseActivity{
 	private ListView mWordListView;
 	private ArrayList<String> wordList;
 	private WordListAdapter mWordListAdapter;
-	public static final int WORD_NUM = 3000;
+	public static final int WORD_NUM = 100000;
 	
 	@Override
 	public void onCreate( Bundle savedInstanceState ){
@@ -28,8 +28,6 @@ public class WordListActivity extends BaseActivity{
 		findView();
 		getWordList();
 		setAdapter ();
-		
-		
 	}
 	
 	
@@ -58,9 +56,12 @@ public class WordListActivity extends BaseActivity{
 	}
 	
 	private void setAdapter (){
-//		mWordListAdapter = new WordListAdapter( this, wordList );
-//		mWordListView.setAdapter( mWordListAdapter );
+//		顯示單字表用
+		mWordListAdapter = new WordListAdapter( this, wordList );
+		mWordListView.setAdapter( mWordListAdapter );
 		
+		
+//		字串搜尋
 		mChipsMultiAutoCompleteTextview.setAdapter(
 				new ArrayAdapter<String>(this,
 				android.R.layout.simple_dropdown_item_1line, wordList));
